@@ -1,0 +1,245 @@
+/* Elements */
+
+body{
+
+    background: rgb(4,106,56);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, rgb(4,106,56), rgba(185,151,91,1));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(4,106,56), rgba(185,151,91,1)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 70px;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+
+nav{
+    background-color: #27251F;
+    color: rgba(185,151,91,1);
+}
+
+footer{
+    background-color: #27251F;
+    color:white;
+    margin-top: 50px;
+    padding-bottom: 24px;
+}
+
+footer a{
+    color: white;
+}
+
+button.navbar-toggler{
+    color: white;
+}
+
+hr{
+    background-color: rgba(185,151,91,1);
+}
+
+h2{
+    display: table;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+    background-color: #27251F;
+    color: rgba(185,151,91,1);
+} 
+
+iframe{
+    margin: 10px auto 50px auto;
+    display: block;
+}
+
+
+
+
+
+
+
+/* Classes */
+nav .active{
+    background-color: rgba(185,151,91,1);
+    text-decoration: none;
+    border-radius: 17px;
+    height: 40px;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+nav li.active a:hover{
+    color:white;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    color: rgba(185,151,91,1);
+    text-decoration: none;
+    
+}
+
+i.socialMedia{
+    font-size: 40px;
+    color: white;
+}
+
+.nav-item{
+    margin-left: 195px;
+    font-family: "Grandstander";
+}
+
+.navText{
+    color: white;
+    font-size: 28px;
+}
+
+.darkClassJumbo{
+    background-color: #27251F;
+    color: rgba(185,151,91,1);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cardClass{
+    background-color: #27251F;
+    color: rgba(185,151,91,1);
+    margin: 0 40px 70px 40px
+}
+
+
+
+
+.carouselClass{
+    background-color: #27251F;
+    margin: 0px 250px 70px 250px;
+    border: 20px solid #27251F;
+}
+
+.carousel-inner > .carousel-item > img{
+    height: 500px;
+    width: 350px;
+}
+
+.jumboTitleAndText{
+    font-family: "Tahoma";
+}
+
+.jumboTitleAndText p{
+    font-size: 23px;
+}
+
+.navbar-toggler{
+    border-color: rgba(185,151,91,1);
+}
+
+.youtube-link{
+    font-family: "Tahoma";
+    font-size: 55px;
+    display: table;
+    padding: 20px;
+    margin: 0px auto 50px auto;
+    background-color: #27251F;
+    color: rgba(185,151,91,1);
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 60%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    height: 95%;
+    border: 0;
+}
+
+.ui-tooltip{
+    font-size: large;
+}
+
+
+
+
+
+
+
+/*IDs */
+
+#hsaLogo{
+    display: block;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*height: 600px; */
+}
+
+#uncclogo{
+    display: block;
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+#email{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#archiveH1{
+    font-family: "Grandstander";
+    color: rgba(185,151,91,1);
+    margin: 0px auto 100px auto;
+    display: table;
+    background-color: #27251F;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+/*Anchor tags */
+
+a:hover{
+    
+    color: rgba(185,151,91,1);
+}
+
+a:active{
+    background-color: rgba(185,151,91,1);
+}
+
+
+
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #27251F;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(185,151,91,1);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(185,151,91,1);
+  }
